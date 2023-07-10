@@ -1,3 +1,6 @@
 import { styled } from "styled-components";
 
-export const SearchbarStyle = styled.div``
+export const InfinitySpinStyle = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+`;
