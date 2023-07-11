@@ -1,6 +1,6 @@
 import { styled } from 'styled-components';
 
-export const ButtonLoadMore = styled.div`
+export const ButtonLoadMore = styled.button`
 margin-left: auto;
   margin-right: auto;
   background-color: dodgerblue;

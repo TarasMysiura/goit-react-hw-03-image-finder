@@ -10,7 +10,7 @@ export const fetchImages = async (query, page) => {
     `https://pixabay.com/api/?key=${API_KEY}&q=${query}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=${per_page}`
     // `https://pixabay.com/api/?key=${API_KEY}&q=${query}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=${per_page}`
   );
-  // console.log(data);
+  console.log(data);
   return data;
 };
 
