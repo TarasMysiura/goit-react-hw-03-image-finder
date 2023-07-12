@@ -31,7 +31,6 @@ export class App extends Component {
 
   handleSearchFormSubmit = searchValue => {
     this.setState({ searchValue, hits: [], currentPage: 1 });
-    console.log(searchValue);
   };
 
   onLoadMore = () => {
